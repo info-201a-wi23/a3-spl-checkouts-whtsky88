@@ -61,7 +61,7 @@ trend over time in total checkout for different usage class, and showed that
 as physical checkouts decreased overtime, digital checkouts rose heavily from 
 January 2017, taking 64.19 percent of total checkouts.
 
-``````{r, echo = FALSE, warning = FALSE, code = readLines("chart1.R")}
+```{r chart1, echo = FALSE, warning = FALSE, code = readLines("chart1.R")}
 ```
 
 ### Second Trends Over Time Chart
@@ -74,7 +74,7 @@ plot shows that magazines and movies are pretty much eliminated after January
 In addition, physical copies of books have fallen dramatically during mid 2020s,
 but slowly risen back up as COVID ends.
 
-``````{r, echo = FALSE, warning = FALSE, code = readLines("chart2.R")}
+```{r chart2, echo = FALSE, warning = FALSE, code = readLines("chart2.R")}
 ```
 
 ### Your Choice
@@ -86,7 +86,7 @@ different month, while years are differently color coded. It seems like
 February usually has the lowest checkouts, while May and December has the 
 highest.
 
-``````{r, echo = FALSE, warning = FALSE, code = readLines("chart3.R")}
+```{r chart3, echo = FALSE, warning = FALSE, code = readLines("chart3.R")}
 ```
 
 
