@@ -21,16 +21,15 @@ of the book.
 
 ### Summary Information
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
-
-These will likely be calculated using your DPLYR skills, answering questions such as:
-
-- What is the average number of checkouts for each item?
-- What is the month or year with the most/least checkouts for a book that you're interested in?
-- What is the month or year with the most/least checkouts for ebooks?
-- How has the number of print book checkouts changed over time?
-
-Feel free to calculate and report values that you find relevant.
+The development of technology with recent COVID cases drastically impacted 
+society, pushed public interest from physical hard copies to digital electronic 
+copies of files. From a data published by the Seattle government, I found that 
+digital copies in 2017 is `r digital_ratio_2017` percent of total checkouts. 
+Going into 2022, the digital copies increased to `r digital_ratio_2022` percent 
+of total checkouts. Being extremely interested in the book The hobbit, I found 
+that the year with the most checkouts for The hobbit is 
+`r most_checkout_year_hobbit`, and the least being 
+`r least_checkout_year_hobbit`. The year with the most checkout for ebooks is `r most_checkout_year_ebook`.
 
 ### The Dataset
 
