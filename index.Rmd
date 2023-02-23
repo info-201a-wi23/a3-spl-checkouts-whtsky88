@@ -66,20 +66,13 @@ January 2017, taking 64.19 percent of total checkouts.
 
 ### Second Trends Over Time Chart
 
-Include a chart. Make sure to describe why you included the chart, and what patterns emerged
-
-The second chart that you will create and include will show another trend over time of your variable/topic/interest. Think carefully about what you want to communicate to your user (you may have to find relevant trends in the dataset first!). Here are some requirements to help guide your design:
-
-- Show more than one, but fewer than ~10 trends
-  - For example, two books, or 5 different mediums
-- You must have clear x and y axis labels
-- The chart needs a clear title 
-- You need a legend for your different line colors and a clear - legend title
-In your .Rmd file, make sure to describe why you included the chart, and what patterns emerged
-
-When we say "clear" or "human readable" titles and labels, that means that you should not just display the variable name.
-
-Here's an example of how to run an R script inside an RMarkdown file:
+The second chart shows interesting trends on total checkouts by different 
+material types. This was included because I wanted to discover how people change 
+their checkout habits in response to advancements in technology and COVID. The 
+plot shows that magazines and movies are pretty much eliminated after January 
+2019, while Ebooks shows a consistent rise in interest as time progresses. 
+In addition, physical copies of books have fallen dramatically during mid 2020s,
+but slowly risen back up as COVID ends.
 
 ``````{r, echo = FALSE, warning = FALSE, code = readLines("chart2.R")}
 ```

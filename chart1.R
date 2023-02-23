@@ -10,7 +10,7 @@ checkout_data <- read.csv("2017-2023-10-Checkouts-SPL-Data.csv",
 
 checkout_data <- checkout_data %>%
   mutate(month_year = zoo::as.yearmon(paste(checkout_data$CheckoutYear,
-                                            checkout_data$CheckoutMonth, sep = "-")))
+                                      checkout_data$CheckoutMonth, sep = "-")))
 
 # checkout by usage class for each month of year
 checkout_by_month <- checkout_data %>%
